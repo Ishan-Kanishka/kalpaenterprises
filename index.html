@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kalpa Enterprises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpa Enterprises - Hardware & Construction Materials</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,22 +13,30 @@
     <p>Hardware & Construction Materials</p>
 </header>
 
+<div class="language-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+    <button class="lang-btn" data-lang="si" onclick="switchLanguage('si')">සිංහල</button>
+</div>
+
 <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="rentals.html">Rentals</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html" data-translate="navHome">Home</a>
+    <a href="products.html" data-translate="navProducts">Products</a>
+    <a href="rentals.html" data-translate="navRentals">Rentals</a>
+    <a href="about.html" data-translate="navAbout">About</a>
+    <a href="contact.html" data-translate="navContact">Contact</a>
 </nav>
 
 <section>
-    <h2>Your Trusted Hardware Partner</h2>
-    <p>We supply sand, metal, cement, tools, and rent construction equipment.</p>
+    <h2 data-translate="homeTitle">Your Trusted Hardware Partner</h2>
+    <div class="about-content">
+        <p data-translate="homeDescription">We supply sand, metal, cement, tools, and rent construction equipment.</p>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Kalpa Enterprises</p>
+    <p data-translate="footerText">© 2026 Kalpa Enterprises</p>
 </footer>
 
+<script src="js/language.js"></script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kalpa Enterprises</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kalpa Enterprises</h1>
+    <p>Hardware & Construction Materials</p>
+</header>
+
+<div class="language-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+    <button class="lang-btn" data-lang="si" onclick="switchLanguage('si')">සිංහල</button>
+</div>
+
+<nav>
+    <a href="index.html" data-translate="navHome">Home</a>
+    <a href="products.html" data-translate="navProducts">Products</a>
+    <a href="rentals.html" data-translate="navRentals">Rentals</a>
+    <a href="about.html" data-translate="navAbout">About</a>
+    <a href="contact.html" data-translate="navContact">Contact</a>
+</nav>
+
+<section>
+    <h2 data-translate="contactTitle">Contact Us</h2>
+    <div class="contact-info">
+        <div class="contact-item">
+            <strong data-translate="contactLocation">Location:</strong>
+            <span data-translate="contactAddress">499/1/F Siriparakum Mawatha, Kolonnawa</span>
+        </div>
+        <div class="contact-item">
+            <strong data-translate="contactPhone">Phone:</strong>
+            <a href="tel:0112157603" data-translate="contactPhoneNumber">0112 157 603</a>
+        </div>
+        <div class="contact-item">
+            <strong>View on Google Maps:</strong>
+            <a href="https://maps.app.goo.gl/hroXhCLpcuTptir87" target="_blank" data-translate="contactMapLink">View on Google Maps</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p data-translate="footerText">© 2026 Kalpa Enterprises</p>
+</footer>
+
+<script src="js/language.js"></script>
+</body>
+</html>

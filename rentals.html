@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentals - Kalpa Enterprises</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kalpa Enterprises</h1>
+    <p>Hardware & Construction Materials</p>
+</header>
+
+<div class="language-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+    <button class="lang-btn" data-lang="si" onclick="switchLanguage('si')">සිංහල</button>
+</div>
+
+<nav>
+    <a href="index.html" data-translate="navHome">Home</a>
+    <a href="products.html" data-translate="navProducts">Products</a>
+    <a href="rentals.html" data-translate="navRentals">Rentals</a>
+    <a href="about.html" data-translate="navAbout">About</a>
+    <a href="contact.html" data-translate="navContact">Contact</a>
+</nav>
+
+<section>
+    <h2 data-translate="rentalsTitle">Equipment Rentals</h2>
+    <p data-translate="rentalDescription">We offer high-quality construction equipment rentals for your projects.</p>
+    
+    <div class="rental-grid">
+        <div class="rental-item">
+            <img src="images/rentals/pressure-gun.jpg" alt="Pressure Gun" onerror="this.style.display='none'">
+            <h3 data-translate="rentalPressureGuns">Pressure Guns</h3>
+        </div>
+        <div class="rental-item">
+            <img src="images/rentals/drill.jpg" alt="Drill" onerror="this.style.display='none'">
+            <h3 data-translate="rentalDrills">Drills</h3>
+        </div>
+        <div class="rental-item">
+            <img src="images/rentals/grinder.jpg" alt="Grinder" onerror="this.style.display='none'">
+            <h3 data-translate="rentalGrinders">Grinders</h3>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p data-translate="footerText">© 2026 Kalpa Enterprises</p>
+</footer>
+
+<script src="js/language.js"></script>
+</body>
+</html>

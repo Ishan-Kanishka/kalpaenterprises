@@ -1,11 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Kalpa Enterprises</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kalpa Enterprises</h1>
+    <p>Hardware & Construction Materials</p>
+</header>
+
+<div class="language-switcher">
+    <button class="lang-btn active" data-lang="en" onclick="switchLanguage('en')">EN</button>
+    <button class="lang-btn" data-lang="si" onclick="switchLanguage('si')">සිංහල</button>
+</div>
+
+<nav>
+    <a href="index.html" data-translate="navHome">Home</a>
+    <a href="products.html" data-translate="navProducts">Products</a>
+    <a href="rentals.html" data-translate="navRentals">Rentals</a>
+    <a href="about.html" data-translate="navAbout">About</a>
+    <a href="contact.html" data-translate="navContact">Contact</a>
+</nav>
+
 <section>
-    <h2>Our Products</h2>
-    <ul>
-        <li>Sand</li>
-        <li>Metal</li>
-        <li>Cement</li>
-        <li>Drill Machines</li>
-        <li>Screw Drivers</li>
-        <li>Nuts & Bolts</li>
-    </ul>
+    <h2 data-translate="productsTitle">Our Products</h2>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="images/products/sand.jpg" alt="Sand" onerror="this.style.display='none'">
+            <h3 data-translate="productSand">Sand</h3>
+        </div>
+        <div class="product-item">
+            <img src="images/products/metal.jpg" alt="Metal" onerror="this.style.display='none'">
+            <h3 data-translate="productMetal">Metal</h3>
+        </div>
+        <div class="product-item">
+            <img src="images/products/cement.jpg" alt="Cement" onerror="this.style.display='none'">
+            <h3 data-translate="productCement">Cement</h3>
+        </div>
+        <div class="product-item">
+            <img src="images/products/drill-machines.jpg" alt="Drill Machines" onerror="this.style.display='none'">
+            <h3 data-translate="productDrillMachines">Drill Machines</h3>
+        </div>
+        <div class="product-item">
+            <img src="images/products/screw-drivers.jpg" alt="Screw Drivers" onerror="this.style.display='none'">
+            <h3 data-translate="productScrewDrivers">Screw Drivers</h3>
+        </div>
+        <div class="product-item">
+            <img src="images/products/nuts-bolts.jpg" alt="Nuts & Bolts" onerror="this.style.display='none'">
+            <h3 data-translate="productNutsBolts">Nuts & Bolts</h3>
+        </div>
+    </div>
 </section>
+
+<footer>
+    <p data-translate="footerText">© 2026 Kalpa Enterprises</p>
+</footer>
+
+<script src="js/language.js"></script>
+</body>
+</html>
