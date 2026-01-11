@@ -1,2 +1,2 @@
-# helping a business to grow
-# need to change the location 
+# helping a business to grow.
+# need to change the location. 
